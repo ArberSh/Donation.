@@ -62,7 +62,7 @@ HOME
 
 */
 .Container_Home {
-    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/Bg.jpg);
+    background-image: linear-gradient(to top,#0050047a,transparent), url(./Images/Bg.jpg);
     height:87vh;
     width:100%; 
     background-size: cover;
@@ -176,7 +176,7 @@ ABOUT US
 .Tree{
     width: 90vh;
     height: 85vh;
-    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/plants.jpg);
+    background-image: linear-gradient(to top,#0050047a,transparent), url(./Images/plants.jpg);
     background-size: cover;
     border-radius: 18px;
     flex-direction: column;
@@ -214,7 +214,7 @@ ABOUT US
 }
 
 .Tree:hover{
-    background-image: linear-gradient(to top,#003603a6,transparent), url(/Images/plants.jpg);
+    background-image: linear-gradient(to top,#003603a6,transparent), url(./Images/plants.jpg);
 }
 
 .Tree:hover h1{
