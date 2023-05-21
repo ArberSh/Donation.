@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.green{
+    color: #b7ea8c;
+}
+/* 
+
+NAVIGATION BAR 
+
+*/
+
+.logo{
+    height: 11vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    height: 13vh;
+    display: flex;
+    background-color: #f6f6f6;
+}
+.nav_container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+.nav_link{
+    margin: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #6A994E;
+    font-weight: bold;
+    padding: 8px;
+}
+.nav_link:hover {
+    text-decoration:underline;
+}
+
+/*
+
+HOME 
+
+*/
+.Container_Home {
+    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/Bg.jpg);
+    height:87vh;
+    width:100%; 
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+.Home_Title{
+    text-align: center;
+    color: white;
+}
+.Home_Title h1{
+    margin-bottom:1vh;
+    font-size: 50px;
+}
+
+.Home_Title h4{
+    font-size: 20px;
+}
+
+.but{
+    margin-top: 4vh;
+}
+
+button{
+    width: 24vh;
+    height: 8vh;
+    border:none;
+    border-radius: 16px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.donate{
+    color: #6A994E;
+    font-size: 18px;
+
+}
+
+.join{
+    color: #6A994E;
+    font-size: 18px;
+    margin-left:4vh;
+}
+
+
+.donate:hover{
+    background-color:#d7f3bf;
+    border: #cbf1ac;
+}
+
+.join:hover{
+    background-color:#e1e1e1;
+    border: #cbf1ac;
+}
+
+/*
+
+ABOUT US 
+
+*/
+
+.Container_About {
+    margin-top:16vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom:16vh ;
+}
+
+.about{
+    margin-left: 8vh;
+    width: 80vh;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.Description {
+    padding: 0 15vh 0 0;
+    width: 80vh;
+    margin-left: 20vh;
+    font-weight: 600;
+}
+
+.Description h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Description p{
+    font-size: 18px;
+}
+
+.Container_Donate{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.Tree{
+    width: 90vh;
+    height: 85vh;
+    background-image: linear-gradient(to top,#0050047a,transparent), url(/Images/plants.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 50px;
+    transition:0.5ms;
+}
+.Tree h1{
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+    font-size:34px;
+    transition: all 0.3s;
+}
+
+.Tree p{
+    opacity: 0;
+    font-size: 18px;
+    font-weight: 480;
+    margin-bottom: 4vh;
+    transition: 0.3s;
+}
+.Tree button{
+    opacity: 0;
+    background-color: transparent;
+    border: solid white 2px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 20vh;
+    height: 8vh;
+}
+
+.Tree:hover{
+    background-image: linear-gradient(to top,#003603a6,transparent), url(/Images/plants.jpg);
+}
+
+.Tree:hover h1{
+    margin-top: 5vh;
+}
+
+.Tree:hover p{
+    opacity: 1;
+}
+
+.Tree:hover button{
+    opacity: 1;
+}
+
+.ButTree:hover{
+    background-color: white;
+    color: rgb(0, 90, 0);
+}
+.Ppl {
+    width: 90vh;
+    height: 85vh;
+    background-image: linear-gradient(to top,#bdbdbd7a,transparent), url(/Images/ChildInNeeds.jpg);
+    background-size: cover;
+    border-radius: 18px;
+}
