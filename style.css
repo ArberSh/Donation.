@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .green{
@@ -43,6 +44,9 @@ ul{
 
 li{
     list-style-type: none;
+    color: none;
+    all: none;
+    color:white
 }
 .nav_link{
     margin: 16px;
@@ -102,10 +106,6 @@ button{
     font-size: 18px;
     transition: 0.3s;
 }
-
-.donate{
-}
-
 .join{
     margin-left:4vh;
 }
@@ -294,4 +294,12 @@ ABOUT US
 .ButPpl:hover{
     background-color: white;
     color: rgb(157, 157, 157);
+}
+
+.Container_Contact{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
 }
