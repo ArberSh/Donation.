@@ -120,7 +120,6 @@ button{
     background-color:#ffffff;
     color: black;
 }
-
 /*
 
 ABOUT US 
@@ -297,9 +296,24 @@ ABOUT US
 }
 
 .Container_Contact{
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
     display:flex;
     justify-content:space-around;
     align-items: center;
+}
+.LilDescription {
+    width: 70vh;
+}
+
+.LilDescription h2 {
+    margin-bottom: 5vh;
+    font-size: 30px;
+}
+.Submit{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
