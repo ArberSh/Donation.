@@ -312,9 +312,23 @@ ABOUT US
     font-size: 30px;
 }
 .Submit{
-    
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     display: flex;
+}
+.email {
+    outline: none;
+    margin-top:4vh ;
+    border:none;
+    border-bottom: solid black 2px;
+    width: 50vh;
+    font-size: 18px;
+    
+}
+textarea {
+    outline: none;
+    margin-top:4vh ;
+    border:none;
+    border-bottom: solid black 2px;
+    width: 50vh;
+    font-size: 18px;
 }
