@@ -315,6 +315,12 @@ ABOUT US
     flex-direction: column;
     display: flex;
 }
+
+.Desc {
+    width: 70vh;
+    font-size: 16px;
+    font-weight: 550;
+}
 .email {
     outline: none;
     margin-top:4vh ;
@@ -330,11 +336,20 @@ textarea {
     border:none;
     border-bottom: solid black 2px;
     width: 30vh;
-    font-size: 16px;
+    font-size: 18px;
 }
 .submitbut{
     color: black;
     margin-top: 4vh;
     border:solid  2px black;
-    border-radius: 10px;
+    border-radius: 8px;
+    width: 16vh;
+    height: 6vh;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0s;
+}
+.submitbut:active{
+    color: white;
+    background-color: black;
 }
