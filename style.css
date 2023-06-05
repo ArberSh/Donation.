@@ -157,6 +157,8 @@ ABOUT US
     font-size: 18px;
 }
 
+/* DONATE */
+
 .Container_Donate{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -295,6 +297,7 @@ ABOUT US
     color: rgb(157, 157, 157);
 }
 
+/* CONTACT US */
 .Container_Contact{
     margin-top: 15vh;
     margin-bottom: 5vh;
@@ -335,8 +338,10 @@ textarea {
     margin-top:4vh ;
     border:none;
     border-bottom: solid black 2px;
-    width: 30vh;
+    width: 50vh;
     font-size: 18px;
+    resize: vertical;
+    height: 2rem;
 }
 .submitbut{
     color: black;
@@ -352,4 +357,29 @@ textarea {
 .submitbut:active{
     color: white;
     background-color: black;
+}
+
+/* FOOTER */
+
+.Container_End{
+    padding-top: 5vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6A994E;
+    padding-bottom: 3vh;
+}
+.logo_Footer{
+    display: flex;
+    width: 10vh;
+    filter:brightness(5);
+    margin-bottom: 2vh;
+}
+.footer_link{
+    color: white;
+    padding: 0 8px;
+}
+.footer_link:hover{
+    text-decoration: underline;
 }
