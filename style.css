@@ -60,6 +60,33 @@ li{
     text-decoration:underline;
 }
 
+.menu_logo{
+    color: black;
+    width: 5vh;
+    cursor: pointer;
+
+}
+
+.Menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #6A994E;
+    position: absolute;
+    top:0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav_link_menu{
+    color: white;
+}
+.nav_links_menu{
+    color: white;
+}
 /*
 
 HOME 
