@@ -220,7 +220,7 @@ ABOUT US
     margin-top: 25vh;
     margin-bottom: 5vh;
     font-size:34px;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .Tree p{
@@ -228,7 +228,7 @@ ABOUT US
     font-size: 18px;
     font-weight: 480;
     margin-bottom: 4vh;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .Tree button{
     opacity: 0;
@@ -281,7 +281,7 @@ ABOUT US
     margin-top: 25vh;
     margin-bottom: 5vh;
     font-size:34px;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .Ppl p{
@@ -289,7 +289,7 @@ ABOUT US
     font-size: 18px;
     font-weight: 480;
     margin-bottom: 4vh;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .Ppl button{
     opacity: 0;
