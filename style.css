@@ -82,9 +82,11 @@ li{
     padding-bottom: 32px;
 }
 
-.but_menu{
+.but_menu-open{
     all:unset;
     display: none;
+    color: black;
+    width: 5vh;
 }
 
 .menu_logo--close{
@@ -95,9 +97,6 @@ li{
     flex-direction: column;
     align-items: center;
 }
-.nav_link_menu{
-    
-}
 
 .nav_link_menu{
     color: white;
@@ -107,7 +106,7 @@ li{
 }
 
 @media(max-width:550px){
-   .menu_logo{
+    .but_menu-open{
     display: block;
     } 
 
