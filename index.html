@@ -7,6 +7,7 @@
     <title>Donate</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <nav>
@@ -19,14 +20,17 @@
                 <li><a href="#About" class="nav_link" >About Us</a></li>
                 <li><a href="#Contact" class="nav_link" >Contact Us</a></li>
             </ul>
-            <button class="but_menu-open" onclick="openMenu()"><img src="./Images/menulogo.svg" alt=""></button>
+            <button class="menu_logo-open" onclick="openMenu()">
+                <img src="./Images/menulogo.svg" alt="">
+            </button>
             <div class="Menu">
-                <!-- Fix this se esht prish  --><button class="
-                menu_logo--close" onclick="closeMenu()"><img src="./Images/xmark-solid.svg" alt=""></button>
+                <button class="menu_logo-open menu_logo-close" onclick="closeMenu()">
+                    <img class="logo-close" src="./Images/xmark-solid (2).svg" alt="">
+                </button>
                 <ul class="nav_links_menu">
-                    <li><a href="#Home" class="nav_link_menu" >Home</a></li>
-                    <li><a href="#About" class="nav_link_menu" >About Us</a></li>
-                    <li><a href="#Contact" class="nav_link_menu" >Contact Us</a></li>
+                    <li><a href="#Home" class="nav_link_menu" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#About" class="nav_link_menu" onclick="closeMenu()" >About Us</a></li>
+                    <li><a href="#Contact" class="nav_link_menu" onclick="closeMenu()" >Contact Us</a></li>
                 </ul>
             </div>
         
