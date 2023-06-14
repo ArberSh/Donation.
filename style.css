@@ -129,6 +129,9 @@ li{
 
 
 @media(max-width:550px){
+    .logo{
+        height: 9vh;
+    }
     .menu_logo-open{
     display: block;
     } 
@@ -251,17 +254,27 @@ ABOUT US
 }
 
 @media(max-width:750px){
+    .Container_About{
+        margin-top: 8vh;
+    }
+    .Description h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
     .about{
+        margin-top: 5vh;
         width: 40vh;
         margin-left: 2vh;
     }
     .Description{
-        margin-left: 6vh;
-        padding: 0 10vh 0 0;
+        margin-left: 3vh;
+        padding: 0 2vh 0 0;
 
     }
     .Description p{
         font-size: 12px;
+        text-align: center;
     }
 }
 /* DONATE */
