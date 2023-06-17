@@ -244,7 +244,7 @@ ABOUT US
 }
 
 .Description h2{
-    font-size: 28px;
+    font-size: 14rem;
     margin-bottom: 20px;
 }
 
@@ -295,8 +295,8 @@ ABOUT US
 }
 
 .Tree{
-    width: 90vh;
-    height: 85vh;
+    width: 36rem;
+    height: 35rem;
     background-image: linear-gradient(to top,#0050047a,transparent), url(./Images/plants.jpg);
     background-size: cover;
     border-radius: 18px;
@@ -355,9 +355,37 @@ ABOUT US
     background-color: white;
     color: rgb(0, 90, 0);
 }
+.Tree_mobile{
+    background-image: linear-gradient(to top,#0050047a,transparent), url(./Images/plants.jpg);
+    background-size: cover;
+    display: none;
+    color: white;
+    width: 30rem;
+    height: 14rem;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    transition: all ease 0.3s;
+}
+
+.Tree_mobile h1{
+    padding-top: 15vh;
+}
+
+.Tree_mobile:active{
+    background-image: linear-gradient(to top,#003e0386,transparent), url(./Images/plants.jpg);
+}
+.empty{
+    width: 100vh;
+    height: 10vh;
+    display: none;
+}
 .Ppl {
-    width: 90vh;
-    height: 85vh;
+    width: 36rem;
+    height: 36rem;
     background-image: linear-gradient(to top,#bdbdbd7a,transparent), url(./Images/ChildInNeeds.jpg);
     background-size: cover;
     border-radius: 18px;
@@ -417,38 +445,52 @@ ABOUT US
     color: rgb(157, 157, 157);
 }
 
-@media(max-width:750px){
+.Ppl_mobile{
+    background-image: linear-gradient(to top,#bdbdbd7a,transparent), url(./Images/ChildInNeeds.jpg);
+    background-size: cover;
+    display: none;
+    color: white;
+    width: 30rem;
+    height: 14rem;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    transition: all ease 0.3s;
+}
+.Ppl_mobile h1{
+    padding-top: 15vh;
+}
+
+.Ppl_mobile:active{
+    background-image: linear-gradient(to top,#a7a7a77a,transparent), url(./Images/ChildInNeeds.jpg);
+}
+
+@media(max-width:650px){
     .Container_Donate{
         display:flex;
         justify-content:space-around;
         align-items: center;
         flex-direction: column;
     }
-    .title{
-        font-size: 20px;
-    }
     .Tree{
-        width: 60vh;
-        height: 40vh;
-    }
-    .Tree h1{
-     margin-top: 10vh;
-    }
-    .Tree h1:hover {
-        margin-top: 10vh;
-    }
-    .ButTree:hover{
-        all:unset;
-    }
-    .Tree p{
         display: none;
     }
-   
-    .Ppl{
-        margin-top: 10vh;
-        width: 60vh;
-        height: 40vh;
+    .Tree_mobile{
+        display: block;   
     }
+    .empty{
+        display: block;
+    }
+    .Ppl{
+        display: none;
+    }
+    .Ppl_mobile {
+        display: block;
+    }
+  
 }
 
 /* CONTACT US */
@@ -485,7 +527,6 @@ ABOUT US
     border-bottom: solid black 2px;
     width: 50vh;
     font-size: 18px;
-    
 }
 textarea {
     outline: none;
