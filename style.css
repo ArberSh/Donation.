@@ -553,6 +553,15 @@ textarea {
     color: white;
     background-color: black;
 }
+.LilDesc_mobile{
+    display: none;
+}
+.Desc_mobile{
+    display: none;
+}
+.Comment_mobile{
+    display: none;
+}
 
 
 /* FOOTER */
