@@ -562,7 +562,11 @@ textarea {
 .Comment_mobile{
     display: none;
 }
-
+@media(max-width:550px){
+    .Container_Contact{
+        flex-direction: column;
+    }
+}
 
 /* FOOTER */
 
