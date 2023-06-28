@@ -555,6 +555,10 @@ textarea {
 }
 .LilDesc_mobile{
     display: none;
+    padding-bottom: 100vh;
+}
+.LilDesc_mobile p {
+    
 }
 .Desc_mobile{
     display: none;
